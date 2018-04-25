@@ -1,0 +1,18 @@
+.t {
+            color:#373B41;
+            font-size:20px;
+            font-weight: bold;
+            text-shadow: 2px 2px 0px grey;
+        }
+#test{
+    width: 150px;
+    height: 150px;
+    background: orange;
+    margin: 30px;
+}
+#out{
+    width: 400px;
+    height: 150px;
+    margin: 20px;
+
+}
