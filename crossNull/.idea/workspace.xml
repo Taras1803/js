@@ -10,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.38655463">
+    <splitter split-orientation="horizontal" split-proportion="0.18814905">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
@@ -83,9 +83,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="99" />
-    <option name="y" value="888" />
-    <option name="width" value="1653" />
+    <option name="x" value="175" />
+    <option name="y" value="214" />
+    <option name="width" value="1245" />
     <option name="height" value="776" />
   </component>
   <component name="ProjectView">
@@ -120,7 +120,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../clock" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -144,15 +144,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524647161859</updated>
-      <workItem from="1524647162943" duration="2341000" />
+      <workItem from="1524647162943" duration="2587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2341000" />
+    <option name="totallyTimeSpent" value="2587000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="99" y="888" width="1653" height="776" extended-state="0" />
+    <frame x="175" y="214" width="1245" height="776" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
