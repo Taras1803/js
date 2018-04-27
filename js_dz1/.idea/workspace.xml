@@ -13,31 +13,31 @@
     <splitter split-orientation="horizontal" split-proportion="0.33205128">
       <split-first>
         <leaf>
-          <file leaf-file-name="js_dz1.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="js_dz1.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js_dz1.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+                <state relative-caret-position="426">
+                  <caret line="103" column="15" lean-forward="false" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="js_dz1.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="js_dz1.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js_dz1.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+                <state relative-caret-position="187">
+                  <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="1.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../mouseSobitie/1.html">
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+            <entry file="file://D:/OpenServer/domains/twig/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="44" />
+                <state relative-caret-position="151">
+                  <caret line="107" column="6" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="109" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -55,46 +55,6 @@
                   <folding>
                     <marker date="1524854991133" expanded="true" signature="137:161" ph="..." />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="1.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../mouseSobitie/1.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-255">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="1.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../catmouse/1.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://D:/OpenServer/domains/twig/templates/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="72" column="9" lean-forward="false" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="12" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="assoc.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../assoc/assoc.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="423">
-                  <caret line="47" column="15" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -117,9 +77,9 @@
       <list>
         <option value="$PROJECT_DIR$/../mouseSobitie/mouseSobitie.html" />
         <option value="$PROJECT_DIR$/../assoc/assoc.js" />
-        <option value="$PROJECT_DIR$/js_dz1.css" />
-        <option value="$PROJECT_DIR$/js_dz1.html" />
         <option value="$PROJECT_DIR$/js_dz1.js" />
+        <option value="$PROJECT_DIR$/js_dz1.html" />
+        <option value="$PROJECT_DIR$/js_dz1.css" />
       </list>
     </option>
   </component>
@@ -175,7 +135,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../assoc/assoc.js" />
+    <property name="last_opened_file_path" value="D:/OpenServer/domains/twig/style.css" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -202,12 +162,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524848007707</updated>
-      <workItem from="1524848008974" duration="6970000" />
+      <workItem from="1524848008974" duration="7390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6970000" />
+    <option name="totallyTimeSpent" value="7390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="185" y="285" width="1576" height="776" extended-state="0" />
@@ -267,14 +227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/OpenServer/domains/twig/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="101" column="10" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="103" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/OpenServer/domains/twig/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -283,10 +235,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mouseSobitie/1.html">
+    <entry file="file://$PROJECT_DIR$/../catmouse/1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -294,14 +246,6 @@
     <entry file="file://$PROJECT_DIR$/../mouseSobitie/1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../catmouse/1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -323,22 +267,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js_dz1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js_dz1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js_dz1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -346,6 +274,38 @@
           <folding>
             <marker date="1524854991133" expanded="true" signature="137:161" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mouseSobitie/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/OpenServer/domains/twig/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="107" column="6" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="109" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js_dz1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js_dz1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="103" column="15" lean-forward="false" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
