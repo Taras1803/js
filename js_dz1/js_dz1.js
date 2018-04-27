@@ -5,12 +5,12 @@ var man = {
 }
 var out = '<table class="simple-little-table">';
 for (var  key in man){
-    out+='<tr>';
-    out+='<th>' + key + '</th>'+
+    out += '<tr>';
+    out += '<th>' + key + '</th>'+
          '<td>' + man[key] + '</td>';
-    out+='</tr>';
+    out += '</tr>';
 }
-out+='</table>';
+out += '</table>';
     document.onclick = function () {
         document.getElementsByTagName('body')[0].insertAdjacentHTML('beforeEnd',out);
     }
