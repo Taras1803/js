@@ -31,27 +31,38 @@ xhttp.onreadystatechange = function() {
                     table.innerHTML = "";
                     var arr = JSON.parse(this.responseText);
                     console.log(arr.query.results.channel);
-                    var info = arr.query.results.channel.item.condition;
                     var location = arr.query.results.channel.location;
-                    for (var item in info) {
-                    var tr = document.createElement('tr');
-                    table.appendChild(tr);
-                        var th = document.createElement('th');
-                        th.innerText = item;
-                    tr.appendChild(th);
-                        var td = document.createElement('td');
-                        td.innerText = info[item];
-                        tr.appendChild(td);
-                    }
+                    var description = arr.query.results.channel.description;
+                    var th = document.createElement('th');
+                    th.className = 't1';
+                    th.innerText = description;
+                    table.appendChild(th);
                     for (var item1 in location) {
                         var tr = document.createElement('tr');
                         table.appendChild(tr);
                         var th = document.createElement('th');
                         th.innerText = item1;
                         tr.appendChild(th);
-                        var td = document.createElement('td');
+                       var td = document.createElement('td');
                         td.innerText = location[item1];
                         tr.appendChild(td);
+                    }
+                    var table1 = document.getElementById("table1");
+                    table1.innerHTML = "";
+                    var forecast= arr.query.results.channel.item.forecast;
+                    for (item in forecast[0]) {
+                        var th = document.createElement('th');
+                        th.innerText = item;
+                        table1.appendChild(th);
+                    }
+                    for (var i = 0; i < forecast.length; i++) {
+                        var tr = document.createElement('tr');
+                        table1.appendChild(tr);
+                        for (var items in forecast[i]) {
+                            var td = document.createElement('td');
+                            td.innerText = forecast[i][items];
+                            tr.appendChild(td);
+                        }
                     }
                  }
                }
