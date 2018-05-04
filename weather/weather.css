@@ -125,8 +125,15 @@ select::-ms-expand {
     text-decoration:underline;
 }
 .t {
+     color:#373B41;
+     font-size:10px;
+     font-weight: bold;
+     font-style: italic ;
+     text-shadow: 1px 1px 0px grey;
+ }
+.t1 {
     color:#373B41;
-    font-size:10px;
+    font-size:15px;
     font-weight: bold;
     font-style: italic ;
     text-shadow: 1px 1px 0px grey;

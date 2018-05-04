@@ -16,6 +16,7 @@ xhttp.onreadystatechange = function() {
             var cities = arr[choose];
             for (var i = 0; i < cities.length; i++){
                 var city = document.createElement('option');
+                city.className = 't';
                 city.innerText = cities[i];
                 town.appendChild(city);
             }
@@ -27,14 +28,11 @@ xhttp.onreadystatechange = function() {
             request.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
                     var table = document.getElementById("table");
+                    table.innerHTML = "";
                     var arr = JSON.parse(this.responseText);
-                    console.log(arr);
-                    var info = arr.query.results.channel.astronomy;
-                    console.log(info);
-                    var td1 = document.createElement('td');
-                    td1.className = 't';
-                    td1.innerText = arr.query.results.channel.description;
-                    table.appendChild(td1);
+                    console.log(arr.query.results.channel);
+                    var info = arr.query.results.channel.item.condition;
+                    var location = arr.query.results.channel.location;
                     for (var item in info) {
                     var tr = document.createElement('tr');
                     table.appendChild(tr);
@@ -43,6 +41,16 @@ xhttp.onreadystatechange = function() {
                     tr.appendChild(th);
                         var td = document.createElement('td');
                         td.innerText = info[item];
+                        tr.appendChild(td);
+                    }
+                    for (var item1 in location) {
+                        var tr = document.createElement('tr');
+                        table.appendChild(tr);
+                        var th = document.createElement('th');
+                        th.innerText = item1;
+                        tr.appendChild(th);
+                        var td = document.createElement('td');
+                        td.innerText = location[item1];
                         tr.appendChild(td);
                     }
                  }
