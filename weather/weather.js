@@ -33,10 +33,25 @@ xhttp.onreadystatechange = function() {
                     console.log(arr.query.results.channel);
                     var location = arr.query.results.channel.location;
                     var description = arr.query.results.channel.description;
+                    var astronomy = arr.query.results.channel.astronomy;
+                    var tr = document.createElement('tr');
+                    table.appendChild(tr);
                     var th = document.createElement('th');
                     th.className = 't1 t3';
                     th.innerText = description;
-                    table.appendChild(th);
+                    tr.appendChild(th);
+                    for (var item in astronomy) {
+                        var tr = document.createElement('tr');
+                        table.appendChild(tr);
+                        var th = document.createElement('th');
+                        th.innerText = item;
+                        th.className = 't3 t1';
+                        tr.appendChild(th);
+                        var td = document.createElement('td');
+                        td.innerText = astronomy[item];
+                        td.className = 't3';
+                        tr.appendChild(td);
+                    }
                     for (var item1 in location) {
                         var tr = document.createElement('tr');
                         table.appendChild(tr);

@@ -136,7 +136,7 @@ select::-ms-expand {
     font-size:15px;
     font-weight: bold;
     font-style: italic ;
-    text-shadow: 1px 1px 0px grey;
+    text-shadow: 1px 1px 0px orange;
 }
 .t3{
     font-weight: bold;
