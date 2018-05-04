@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7a3dbbd-cc50-4811-aa37-544020b1050b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather/weather.css" afterPath="$PROJECT_DIR$/weather/weather.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather/weather.html" afterPath="$PROJECT_DIR$/weather/weather.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather/weather.js" afterPath="$PROJECT_DIR$/weather/weather.js" />
     </list>
@@ -14,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45179856">
+    <splitter split-orientation="horizontal" split-proportion="0.634434">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="weather.js" pinned="false" current-in-tab="false">
@@ -30,8 +30,8 @@
           <file leaf-file-name="weather.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/weather/weather.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+                <state relative-caret-position="238">
+                  <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -50,8 +50,8 @@
           <file leaf-file-name="weather.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/weather/weather.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="801">
-                  <caret line="139" column="1" lean-forward="false" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
+                <state relative-caret-position="2465">
+                  <caret line="145" column="2" lean-forward="true" selection-start-line="145" selection-start-column="2" selection-end-line="145" selection-end-column="2" />
                   <folding />
                 </state>
               </provider>
@@ -64,8 +64,8 @@
           <file leaf-file-name="weather.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/weather/weather.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="631">
-                  <caret line="60" column="56" lean-forward="false" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
+                <state relative-caret-position="612">
+                  <caret line="36" column="41" lean-forward="false" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
                   <folding />
                 </state>
               </provider>
@@ -102,8 +102,8 @@
       <list>
         <option value="$PROJECT_DIR$/weather/weather1.js" />
         <option value="$PROJECT_DIR$/weather/weather.css" />
-        <option value="$PROJECT_DIR$/weather/weather.html" />
         <option value="$PROJECT_DIR$/weather/weather.js" />
+        <option value="$PROJECT_DIR$/weather/weather.html" />
       </list>
     </option>
   </component>
@@ -122,9 +122,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-404" />
-    <option name="y" value="180" />
-    <option name="width" value="1630" />
+    <option name="x" value="315" />
+    <option name="y" value="323" />
+    <option name="width" value="996" />
     <option name="height" value="862" />
   </component>
   <component name="ProjectView">
@@ -203,18 +203,18 @@
       <workItem from="1525295348387" duration="3911000" />
       <workItem from="1525376736081" duration="15432000" />
       <workItem from="1525420845426" duration="2571000" />
-      <workItem from="1525450272951" duration="4826000" />
+      <workItem from="1525450272951" duration="7887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26740000" />
+    <option name="totallyTimeSpent" value="29801000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-404" y="180" width="1630" height="862" extended-state="0" />
+    <frame x="315" y="323" width="996" height="862" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09479554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13469388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -374,24 +374,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weather/weather.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="139" column="1" lean-forward="false" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather/weather.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        <state relative-caret-position="2465">
+          <caret line="145" column="2" lean-forward="true" selection-start-line="145" selection-start-column="2" selection-end-line="145" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weather/weather.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="60" column="56" lean-forward="false" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/weather.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding />
         </state>
       </provider>

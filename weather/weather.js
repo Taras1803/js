@@ -34,7 +34,7 @@ xhttp.onreadystatechange = function() {
                     var location = arr.query.results.channel.location;
                     var description = arr.query.results.channel.description;
                     var th = document.createElement('th');
-                    th.className = 't1';
+                    th.className = 't1 t3';
                     th.innerText = description;
                     table.appendChild(th);
                     for (var item1 in location) {
@@ -42,26 +42,34 @@ xhttp.onreadystatechange = function() {
                         table.appendChild(tr);
                         var th = document.createElement('th');
                         th.innerText = item1;
+                        th.className = 't3';
                         tr.appendChild(th);
                        var td = document.createElement('td');
                         td.innerText = location[item1];
+                        td.className = 't3';
                         tr.appendChild(td);
                     }
                     var table1 = document.getElementById("table1");
                     table1.innerHTML = "";
                     var forecast= arr.query.results.channel.item.forecast;
-                    for (item in forecast[0]) {
+                    for (var item in forecast[0]) {
+                        if (item != 'code'){
                         var th = document.createElement('th');
                         th.innerText = item;
+                        th.className = 't3';
                         table1.appendChild(th);
+                        }
                     }
                     for (var i = 0; i < forecast.length; i++) {
                         var tr = document.createElement('tr');
                         table1.appendChild(tr);
                         for (var items in forecast[i]) {
+                            if (items != 'code'){
                             var td = document.createElement('td');
                             td.innerText = forecast[i][items];
+                            td.className = 't3';
                             tr.appendChild(td);
+                            }
                         }
                     }
                  }
