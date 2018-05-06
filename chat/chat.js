@@ -22,10 +22,9 @@ var button = document.getElementById('button');
 button.onclick =  async function insertmessage() {
     var message = document.getElementById('message').value;
     var data = await
-    jsonPost("http://students.a-level.com.ua:10012", {func: 'addMessage', nick: "taras", message: message});
+    jsonPost("http://students.a-level.com.ua:10012", {func: 'addMessage', nick: "Taras", message: message});
     document.getElementById('message').value = null;
 }
-
 
 async function readmessage() {
     var data = await jsonPost("http://students.a-level.com.ua:10012", {func: "getMessages", messageId: 0});
@@ -66,4 +65,4 @@ async function readmessage() {
         row.appendChild(count2);
     }
 }
-setInterval(readmessage,2000);
+setInterval(readmessage,10000);
