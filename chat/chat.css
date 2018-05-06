@@ -1,15 +1,15 @@
 select {
-     margin: 50px;
-     width: 150px;
-     padding: 5px 35px 5px 5px;
-     font-size: 16px;
-     border: 1px solid #ccc;
-     height: 34px;
-     -webkit-appearance: none;
-     -moz-appearance: none;
-     appearance: none;
-     background: url(https://cdn2.iconfinder.com/data/icons/font-awesome/1792/arrow-circle-down-16.png) 96% / 15% no-repeat #eee;
- }
+    margin: 50px;
+    width: 150px;
+    padding: 5px 35px 5px 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(https://cdn2.iconfinder.com/data/icons/font-awesome/1792/arrow-circle-down-16.png) 96% / 15% no-repeat #eee;
+}
 
 /* CAUTION: IE hackery ahead */
 select::-ms-expand {
