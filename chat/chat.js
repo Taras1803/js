@@ -36,7 +36,7 @@ async function readmessage() {
     table.innerHTML = '';
     var row = document.createElement('tr');
     table.appendChild(row);
-    for (var item in data2[0]){
+    for (var item in data2[1]){
         var name = document.createElement('th');
         name.className = 't1 t3';
         name.innerText = item;
@@ -66,53 +66,4 @@ async function readmessage() {
     }
 }
 readmessage();
-setInterval(readmessage,20000);
-function httpGet(url) {
-
-    return new Promise(function(resolve, reject) {
-
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', url, true);
-
-        xhr.onload = function() {
-            if (this.status == 200) {
-                resolve(this.response);
-            } else {
-                var error = new Error(this.statusText);
-                error.code = this.status;
-                reject(error);
-            }
-        };
-
-        xhr.onerror = function() {
-            reject(new Error("Network Error"));
-        };
-
-        xhr.send();
-    });
-
-}
-httpGet("https://learn.javascript.ru/article/promise/user.json").then(
-    response => {
-    console.log(response);
-let user = JSON.parse(response);
-return user;
-})
-// 2. Получить информацию с github
-.then(user => {
-    console.log(user);
-return httpGet(`https://api.github.com/users/${user.name}`);
-
-})
-// 3. Вывести аватар на 3 секунды (можно с анимацией)
-.then(githubUser => {
-    console.log(githubUser);
-githubUser = JSON.parse(githubUser);
-console.log(githubUser);
-let img = new Image();
-img.src = githubUser.avatar_url;
-img.className = "promise-avatar-example";
-document.body.appendChild(img);
-
-setTimeout(() => img.remove(), 3000); // (*)
-});
+setInterval(readmessage,10000);
