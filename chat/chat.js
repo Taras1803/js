@@ -1,20 +1,24 @@
 function jsonPost(url, data) {
     return new Promise((resolve, reject) => {
         var x = new XMLHttpRequest();
-    x.onerror = () => reject(new Error('jsonPost failed'))
-    //x.setRequestHeader('Content-Type', 'application/json');
+    x.onerror = () => reject(new Error('jsonPost failed'));
     x.open("POST", url, true);
-    x.send(JSON.stringify(data))
+    x.setRequestHeader('Content-Type', 'application/json');
+    console.log(data);
+    var Taras = JSON.stringify(data);
+    x.send('param=' + Taras);
+    console.log(Taras);
 
     x.onreadystatechange = () => {
-    if (x.readyState == XMLHttpRequest.DONE && x.status == 200){
-         resolve(JSON.parse(x.responseText));
-    }
-    else if (x.status != 200){
-        reject(new Error('status is not 200'))
-    }
+        if (x.readyState == XMLHttpRequest.DONE && x.status == 200){
+            console.log(JSON.parse(x.responseText));
+            resolve(JSON.parse(x.responseText));
+        }
+        else if (x.status != 200){
+            reject(new Error('status is not 200'))
+        }
 
-}
+    }
 })
 }
 var button = document.getElementById('button');
@@ -22,14 +26,15 @@ var button = document.getElementById('button');
 button.onclick =  async function insertmessage() {
     var message = document.getElementById('message').value;
     var data = await
-    jsonPost("http://students.a-level.com.ua:10012", {func: 'addMessage', nick: "Taras", message: message});
+    jsonPost("server.php", {func: 'addMessage', name: "Taras", mess: message});
     document.getElementById('message').value = null;
 }
 
 async function readmessage() {
-    var data = await jsonPost("http://students.a-level.com.ua:10012", {func: "getMessages", messageId: 0});
+    var data = await jsonPost("server.php", {func: "getMessages", messageId: 0});
+    console.log(data);
     var mesid = data.nextMessageId-15;
-    var data1 = await jsonPost("http://students.a-level.com.ua:10012", {func: "getMessages", messageId: mesid });
+    var data1 = await jsonPost("server.php", {func: "getMessages", messageId: mesid });
     console.log(data1,mesid);
     var data2 = data1.data;
     var table = document.getElementById('sms');
@@ -45,6 +50,13 @@ async function readmessage() {
     for (var i=(data2.length)-1; i>=0; i--){
         var row = document.createElement('tr');
         table.appendChild(row);
+        for (var item in data2[i]){
+            let cell = document.createElement('td');
+            cell.className = 't3';
+            cell.innerHTML = data2[i][item];
+            row.appendChild(cell);
+        }
+
         var count = document.createElement('td');
         count.className = 't3';
         count.innerText = data2[i].nick;
@@ -67,3 +79,4 @@ async function readmessage() {
 }
 readmessage();
 setInterval(readmessage,10000);
+
